@@ -9,5 +9,3 @@ class Link(models.Model):
     author = models.ForeignKey(get_user_model(), null=True, on_delete=models.CASCADE,)
     created_date = models.DateTimeField() 
     active = models.BooleanField(default=True)
-    def __str__(self):
-        return self.title
