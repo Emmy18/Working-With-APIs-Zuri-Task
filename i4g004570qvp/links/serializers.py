@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Link
+from links.models import Link
 
 
 class LinkSerializer(serializers.ModelSerializer):
